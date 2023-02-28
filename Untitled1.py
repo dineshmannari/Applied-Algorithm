@@ -5,7 +5,7 @@
 
 
 import csv
-import pandas as pd
+# import pandas as pd
 
 col=[]
 # Open the CSV file using the 'with' statement
