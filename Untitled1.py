@@ -9,7 +9,7 @@ import csv
 
 col=[]
 # Open the CSV file using the 'with' statement
-with open('D:/MS sem2/DM/homework 4/archive/nyt-comments-2020.csv', 'r',encoding="utf8") as csv_file:
+with open('D:/MS sem2/DM/homework 4/archive/nyt-comments-2020.csv', 'r') as csv_file:
     
     # Create a CSV reader object
     csv_reader = csv.reader(csv_file)
